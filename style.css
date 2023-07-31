@@ -1,0 +1,192 @@
+body {
+	border: none;
+	margin: 0;
+	padding: 0;
+    background-color: #D03939;
+}
+
+#nav {
+    background-color: #D03939;
+    display: flex;
+    justify-content: space-between;
+    height: 189px;
+
+}
+
+#UEFA {
+    margin-top: 10px;
+    width: 117px;
+    height: 117px;
+    margin-left: 10px;
+}
+
+#EUROS {
+    margin-top: 10px;
+    width: 221px;
+    height: 107px;
+    margin-right: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.phrase {
+    width: auto;
+    font-family: 'Judson', serif;
+    font-size: 90px;
+    align-self: flex-start;
+    margin-left: 50px; 
+    color: #FFFFFF;
+
+}
+.phrase p {
+    gap: 10px;
+}
+
+.last1 {
+    color: #9DF096;
+}
+.last2 {
+    color: #65DCC8;
+}
+.last3 {
+    color: #A6DAFF;
+}
+#expl {
+    width: 272px;
+    height: 93px;
+    font-size: 32px;
+    color: #29335C;
+    background-color: #FFFFFF;
+    margin-left: 120px;
+    border: none;
+    font-family: 'Judson', serif;
+}
+#stadium {
+    float: right;
+}
+#stadium img{
+    width: 568px;
+    height: 372px;
+    margin-right: 80px;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+    border-radius: 8%;
+}
+.arrow-btn {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+#stadium button:hover {
+    font-size: 28px; 
+    transform: translateY(-50%) scale(1.2); 
+}
+#next-btn {
+    right:0;
+}
+#slides.fade-out {
+    opacity: 0; 
+  }
+
+.dateFooter {
+    height: 115px;
+    background-color: #29335C;
+    position: relative;
+    overflow: hidden;
+}
+
+.dateFooter p {
+    color: #FFFFFF;
+    font-size: 1.875rem; 
+    font-family: 'Judson', serif;
+    white-space: nowrap; 
+    position: absolute;
+    left: 0; 
+    top: 0;
+    animation: move 8s linear infinite, fadeInOut 2s ease infinite alternate;
+    animation-delay: 1s; /
+}
+
+@keyframes move{
+    from{margin-left:0;}
+    to{margin-left:100%;}
+}
+
+#section2 {
+    background-color: #FFFFFF;
+    width: 1481px;
+    height: 954px;
+}
+
+#section2 h2 {
+    font-family: 'Judson', serif;
+    font-size: 80px;
+    margin-right: 20px;
+}
+
+.countries {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.country-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.country-item img {
+    width: 279px;
+    height: 131px;
+    object-fit: cover;
+    margin-bottom: 5px; 
+}
+
+.country-item b {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#section3 {
+    background-image: url(https://img.fcbayern.com/image/upload/cms/public/images/allianz-arena/wallpaper/wallpaper-01.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    height: 954px;
+    flex-direction: column;
+}
+#section3 h2{
+    font-family: 'Judson',serif;
+    font-size: 80px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    
+}
+#news-container {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    width: 377px; 
+    height: 462px; 
+    margin-right: 50px;
+    background-color: #326D63; 
+}
+
+
+  

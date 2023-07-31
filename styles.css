@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animated {
+  animation: moveLeftToRight 10s linear infinite; /* Adjust the duration (10s in this case) to slow down the animation */
+}
